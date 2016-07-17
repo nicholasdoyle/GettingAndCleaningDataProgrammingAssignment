@@ -10,5 +10,6 @@ The primary component of this repo is the run_analysis.R script, which will perf
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. The output file generated is named "Course3AssignmentData.txt."  This can be read with read.table(header=TRUE).  I chose a wide format, with a specific measure in each column.  I consider the X,Y,Z measurements and readings from the Gyroscope or Accelerometer to be different enough to warrant a separate column for the type of anlysis I would imagine to be performed on this data.  The data is tidy since it contains descriptive column names, a separate column for each variable, and columns are unique.
 
 ## Requirements
-The working directory is expected to be set to the "UCI HAR Dataset" directory contained in the repo. 
+* The working directory is expected to be set to the "UCI HAR Dataset" directory contained in the repo.
+* Packages reshape2 and plyr are installed.   
 
